@@ -67,7 +67,6 @@ class MainActivity : ComponentActivity() {
                             }
                         ) {
                             Text(text = "ADD")
-
                         }
                     }
                     NameList(names = names)
@@ -75,8 +74,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
-
 }
 
 @Composable
